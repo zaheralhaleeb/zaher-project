@@ -29,3 +29,7 @@ Now build!
 Source: https://www.oxygenna.com/freebies/free-one-page-psd-template
 
 Good luck and... don't get hungry looking at all that food!
+
+## Bonus (Hard mode)
+
+Create a mobile first design, and using media queries create a separate layout for tablet and desktop.
