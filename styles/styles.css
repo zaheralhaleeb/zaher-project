@@ -1,0 +1,250 @@
+ /* start-header*/
+ .container{
+   
+ }
+ .logo{
+     float: left;
+     margin-top:25px ;
+     margin-left: 25px;
+ }
+ 
+  ul{
+     float: right;
+     text-align: right;
+ }
+ .container ul li{
+      
+     display: inline-block;
+     margin: 5px ; 
+     color: white;
+     font-size: 17px;
+        
+ }
+ h1{
+     
+     text-align: center;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 55px;
+      
+      
+ }
+ .image{
+     background-image:url(../images/promo-background.jpeg);
+     padding: 15%;
+     background-size: cover;
+     background-repeat: no-repeat;
+    
+ }
+ .divider-white{
+     text-align: center;
+ }
+ .button{
+     text-align: center;
+     margin-top:10px ;
+ }
+ .button .left{
+     height: 33px;
+     opacity: 0.5;
+     background-color: black;
+     color: white;
+ }
+ .button .right{
+    height: 33px;
+     opacity: 0.9;
+    background-color:yellowgreen;
+    color: white;
+}
+ /* end-header*/
+ /*start-section 1*/
+ .section{
+    display: flex;
+    justify-content: space-around;
+ }
+.about{
+  
+    background-image: url(../images/about-background.jpeg);
+    padding: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/about-dish.png);
+    float: right;
+    height: 150px;
+    width: 150px;
+}
+#just{
+    font-size: 44px;
+    text-align: left;
+    padding-top: 100px;
+     color: #FEC606;    
+}
+.paragraph{
+    
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}
+.cook{
+    margin:100px auto ;
+   justify-content: center;  
+}
+ 
+ 
+ /*end-section 1*/
+     
+  /*start-section 2*/
+    .section-2{
+        display: flex;
+    }
+    .ingredients{
+        background-image: url(../images/ingredients-background.jpeg);
+        padding: 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box{ 
+        background-color:#344146;
+        text-align: center;
+        color: white;
+        width: 80%;
+        padding-bottom: 10%;
+    }
+    .unter{
+       
+       
+        background-image: url(../images/ingredients-bread.png);
+        background-repeat: no-repeat;
+        padding: 100px;
+        width: 100px;
+    }
+
+   .zaher{ background-image: url(../images/ingredients-spices.png);
+    background-repeat: no-repeat;
+    padding: 100px;
+    width: 100px;
+    }
+
+  .unter{  background-image: url(../images/ingredients-grains.png);
+    background-repeat: no-repeat;
+    padding: 100px;
+    width: 100px;
+}
+    
+  
+
+
+ /*end-section 2*/
+
+
+  /*start-section 3*/
+    .foto{
+        background-image: url(../images/reservations-background.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10%;
+    }
+    .menu{
+        
+        display:inline-block;
+        width: 300px;
+        height: 300px;
+    }
+    span{
+        color:#FEC606;
+    }
+
+   /*end-section 3*/
+
+ /*start-section 4*/
+
+.foto-4{
+    background-image: url(../images/reviews-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25%;
+}
+.menu-4{
+    color: white;
+    background-color: #25373D;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+  /*end-section 4*/
+
+   /*start-section 4*/
+
+    .foto-5{
+        background-image: url(../images/reservations-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25%;
+
+    }
+    .left-5{
+        display: flex;
+         
+    }
+    .left-5 > div{
+        margin: 5px;
+    }
+    .right-5{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+    .left-right{
+        display: flex;
+      
+    }
+    .left-right > div {
+        margin: 25px;
+    }
+    .personal  > input{
+     
+   
+    }
+    .personal >div {
+       margin: 10px;
+       display: flex
+    }
+
+
+    /*end-section 5*/
+
+    /*start-footer*/
+        footer{
+            padding: 10%;
+            background-color:#25373D ;
+        }
+        .finally > div{
+           
+            display:inline-block;
+            width: 300px;
+            height: 300px;
+            background-color: #60646D;
+            margin: 10px;
+        }
+        .one{
+            text-align: center;
+        }
+        .two{
+            text-align: center;
+        }
+        .three{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            padding: 25px;
+            margin: 0 auto;
+            color: white;
+            background-color: turquoise;
+        }
+   
+
+
+
+    /*end-footer*/
